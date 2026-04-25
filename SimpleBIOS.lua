@@ -2,6 +2,9 @@
 --Allows editing programs from VSCode!
 program = ""
 
+--Simplify FileSystem
+fs = filesystem
+
 function successfulBeep(message)
 	computer.beep(1)
 	event.pull(0.1)
